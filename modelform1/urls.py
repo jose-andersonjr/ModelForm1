@@ -19,5 +19,5 @@ from modelform1.core import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name='index')
+    path('', views.formulario_modelform, name='formulario')
 ]
