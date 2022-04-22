@@ -1,3 +1,61 @@
 * {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    font-weight: bold;
+    
+}
+
+body {
+    padding-bottom: 500px;/* serve pra dar um espaçamento no fim do site para que seja possível usar o scroll */
+    background-color: aqua;
+}
+
+.container {
+    background-color: rgba(71, 92, 138, 0.552);
+    border: 4px solid rgb(255, 255, 255);
+    /* Alinhamento e dimensões do conteúdo */
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 15px;
+    max-width: 500px;
+    height: 500px;
+    /* Regras do Flexbox */
+    display: flex;
+    /* Alinhamento horizontal */
+    justify-content: center;
+    flex-direction: row;
+    /* Alinhamento vertical */
+    align-items: center;
+    
+}
+
+/* Definindo a cor dos tipos diferentes d input do formulario */
+input, select {
+    background-color: rgba(71, 92, 138, 0.552);
+}
+
+form{
+    flex: 1 1 50px;
+  
+}
+
+label {
+    background-color: bisque;
+    border-radius: 4px;
+}
+
+.label-form {
     display: block;
+    padding: 10px;
+}
+
+.button {
+    display: block;
+    border-radius: 5px;
+    margin: 0 auto 20px;
+    background-color: rgb(80, 148, 80);
+    padding: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
 }
